@@ -1,0 +1,259 @@
+body{
+    background-color: #2F1893;
+    width: 1400px;
+    height: 890px;
+    position: relative;
+    height:100%;
+    font-family:"DM Sans";
+}  
+.nav{
+    width: 972px;
+    height: 40px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    margin-right: 17px;
+    color: white;
+}
+.Startup{
+    font-family:"DM Sans";
+    color: white;
+    font-weight: 700;
+    font-size:24px ; 
+}
+.content{
+    top:65px;
+    position: absolute;
+    left: 213px;
+    right: 213px;
+    bottom: 10px;
+}
+.Overview{
+    font-weight:500;
+    font-size:18px ;
+}
+.start{
+    margin-right: 407px; 
+    top: 75px;
+    width: 111px;
+}
+.button{
+    border-radius: 50px;
+    font-weight: 500;
+    overflow: hidden;
+    font-size:18px ;
+    color:#FFFFFF;
+    text-align: center;
+    width: 140px;
+    height: 40px;
+    border: 2px;
+    background-color:#E93A7D;
+}
+.Generate{
+    width: 424px;
+    height: 217px;    
+    top: 219px;
+    left: 213px;
+    font-weight: 700;
+    color:#FFFFFF;
+    font-size:58px ;
+    line-height: 70px;
+    letter-spacing: -1px;
+}
+.para{
+    width: 363px;
+    height: 160px;
+    top: 460px;
+    font-weight: 500;
+    color:#FFFFFF;
+    font-size:22px ;
+    line-height: 32px;
+    text-decoration: none;
+}
+.learn{
+    width: 157px;
+    height: 50px;
+    top:665px;
+    left: 213px;
+    font-weight: 500;
+    font-family:"DM Sans";
+    font-size:18px ;
+    border-radius: 50px;
+    border:2px;
+    background-color:#E93A7D;
+    line-height: 26px; 
+    text-align: center;
+    color: #FFFFFF;
+}
+.signupform{
+    width: 450px;
+    height: 500px;
+    top:187px;
+    left: 715px;
+    background: rgba(255, 255, 255, 1);
+    padding:0px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.signupnow{
+    height:52px;
+    top: 235px; 
+    left: 829px;
+    font-weight: 700;
+    font-family:"DM Sans";
+    font-size:42px ;
+    letter-spacing: -0.4px;
+    text-align:center;
+    line-height: 52px;
+    color:#1E0E62;
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+.email{
+    width: 330px;
+    height: 50px;
+    top:321px;
+    left:785px;
+    border-radius: 100px;
+    color:#15143966;
+    padding-left: 20px;
+    margin-left: 10%;
+    font-weight: 500;
+    font-family:"DM Sans";
+    font-size:18px ;
+    line-height: 26px;
+    border: 2px solid rgba(235, 234, 237, 1);
+    margin-bottom: 15px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.agree{
+width: 265px;
+height: 26.4px;
+top: 471px;
+left: 785px;
+margin-bottom: 15px;
+}
+.box{
+width: 24px;
+height: 16px;
+border-radius: 6px;
+top: 471px;
+margin-bottom: 15px;
+left: 785px;
+background-color: #25DAC5;
+margin-left: 12%;
+}
+.condition{
+width: 228px;
+height: 26px;
+top: 471px;
+left: 822px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+color:#15143966;
+margin-bottom: 15px;
+}
+.SignIn{
+width: 330px;
+height: 50px;
+top: 525px;
+left: 785px;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+border-radius: 100px;
+border: 2px;
+color: #FFFFFF;
+margin-left: 10%;
+background-color:#482BE7;
+margin-bottom: 15px;
+}
+.Twitter{
+background-color:#1DA1F2;
+}
+.divider {
+font-size: 16px;
+display: flex;
+align-items: center;
+width: 328px;
+margin-left: 10%;
+height: 26px;
+top: 593.4px;
+left: 784.5px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0px;
+margin-bottom: 15px;
+text-align: center;
+color:rgba(21, 20, 57, 0.4);
+}
+.divider::before, .divider::after {
+flex: 1;
+content: '';
+padding: 1px;
+background-color:#EBEAED;
+margin: 1px;
+}
+.Account{
+width: 215px;
+height: 28px;
+top: 716px;
+left: 815px;
+font-size: 18px;
+font-weight: 500;
+margin-left: 15%;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: center;
+color:rgba(21, 20, 57, 0.4);
+}
+.end{
+width: 56px;
+height: 28px;
+top: 716px;
+left: 1040px;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0px;
+text-align:center;
+color:rgba(37, 218, 197, 1);
+}
+@media only screen and (max-width: 600px){
+.grid-container {
+grid-template-columns: 100%;}
+.Generate{
+height: auto;
+}
+.signupform{
+width: 55%;
+margin-right: 10px;
+margin-top: 100px;
+}
+.signupnow{
+width: auto;
+}
+.para{
+width: 65%;
+font-size: 38px;
+}
+.start{
+    margin-right: auto;
+    width: auto;
+}
+
+ }
+    
